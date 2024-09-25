@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a218cf335119ae97d9a6ef123d951656 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a218cf335119ae97d9a6ef123d951656" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a218cf335119ae97d9a6ef123d951656 = L.map(
+                "map_a218cf335119ae97d9a6ef123d951656",
+                {
+                    center: [25.0845, 121.5645],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a3493e5eea99b5427ece16f85d888ed5 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_a3493e5eea99b5427ece16f85d888ed5.addTo(map_a218cf335119ae97d9a6ef123d951656);
+        
+    
+            var marker_ba4004b52db46b23ddfa9e91600a6fc9 = L.marker(
+                [25.0523, 121.519],
+                {}
+            ).addTo(map_a218cf335119ae97d9a6ef123d951656);
+        
+    
+            var icon_3470583a245eb41949dcb5c2d859d551 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ba4004b52db46b23ddfa9e91600a6fc9.setIcon(icon_3470583a245eb41949dcb5c2d859d551);
+        
+    
+        var popup_4a59af64db18e2f8b8f1b6d6b7a7f22b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88745bacef614344266ed8c5841c396b = $(`<div id="html_88745bacef614344266ed8c5841c396b" style="width: 100.0%; height: 100.0%;">SnapShot 中山創始店</div>`)[0];
+                popup_4a59af64db18e2f8b8f1b6d6b7a7f22b.setContent(html_88745bacef614344266ed8c5841c396b);
+            
+        
+
+        marker_ba4004b52db46b23ddfa9e91600a6fc9.bindPopup(popup_4a59af64db18e2f8b8f1b6d6b7a7f22b)
+        ;
+
+        
+    
+    
+            var marker_ba870fd52734079b3449e6d0ba88e847 = L.marker(
+                [25.0422, 121.5065],
+                {}
+            ).addTo(map_a218cf335119ae97d9a6ef123d951656);
+        
+    
+            var icon_64c3682316cec0f1cd7c0b578ced8369 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ba870fd52734079b3449e6d0ba88e847.setIcon(icon_64c3682316cec0f1cd7c0b578ced8369);
+        
+    
+        var popup_51c2ed2a87f25091587960da29ebcc97 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_047fa78dad4d7669cf66740998c67b5c = $(`<div id="html_047fa78dad4d7669cf66740998c67b5c" style="width: 100.0%; height: 100.0%;">SnapShot 西門町店</div>`)[0];
+                popup_51c2ed2a87f25091587960da29ebcc97.setContent(html_047fa78dad4d7669cf66740998c67b5c);
+            
+        
+
+        marker_ba870fd52734079b3449e6d0ba88e847.bindPopup(popup_51c2ed2a87f25091587960da29ebcc97)
+        ;
+
+        
+    
+    
+            var marker_67d5167975210c19ab33129337ed530e = L.marker(
+                [25.033, 121.5645],
+                {}
+            ).addTo(map_a218cf335119ae97d9a6ef123d951656);
+        
+    
+            var icon_95915d268c5de10eb9685db1157d9464 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_67d5167975210c19ab33129337ed530e.setIcon(icon_95915d268c5de10eb9685db1157d9464);
+        
+    
+        var popup_d901588f11dd4ed936667312dbdc12f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0adea9cb5c216606412a330ed676a94 = $(`<div id="html_f0adea9cb5c216606412a330ed676a94" style="width: 100.0%; height: 100.0%;">SnapShot 信義店</div>`)[0];
+                popup_d901588f11dd4ed936667312dbdc12f1.setContent(html_f0adea9cb5c216606412a330ed676a94);
+            
+        
+
+        marker_67d5167975210c19ab33129337ed530e.bindPopup(popup_d901588f11dd4ed936667312dbdc12f1)
+        ;
+
+        
+    
+    
+            var marker_7541d527dbc3e6d4b3b596575e88ae04 = L.marker(
+                [25.0845, 121.5645],
+                {}
+            ).addTo(map_a218cf335119ae97d9a6ef123d951656);
+        
+    
+            var icon_e0164d4520c43cd5813db135355e9451 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7541d527dbc3e6d4b3b596575e88ae04.setIcon(icon_e0164d4520c43cd5813db135355e9451);
+        
+    
+        var popup_28442889ea86dc8b5215fa34dd9ec9ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d142261b1bc6a6bec36ffa18995a952 = $(`<div id="html_8d142261b1bc6a6bec36ffa18995a952" style="width: 100.0%; height: 100.0%;">SnapShot 士林捷運店</div>`)[0];
+                popup_28442889ea86dc8b5215fa34dd9ec9ae.setContent(html_8d142261b1bc6a6bec36ffa18995a952);
+            
+        
+
+        marker_7541d527dbc3e6d4b3b596575e88ae04.bindPopup(popup_28442889ea86dc8b5215fa34dd9ec9ae)
+        ;
+
+        
+    
+    
+            var marker_a0e9b6b2c4e8f2380286684e76976cda = L.marker(
+                [25.0438, 121.5075],
+                {}
+            ).addTo(map_a218cf335119ae97d9a6ef123d951656);
+        
+    
+            var icon_7f17cb88c9fa264c95a52ce73b2ab2f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a0e9b6b2c4e8f2380286684e76976cda.setIcon(icon_7f17cb88c9fa264c95a52ce73b2ab2f8);
+        
+    
+        var popup_d8c098ede5313ec523a41eada301b6b4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4884b213e22bd8a0f984a2e67a0b50ac = $(`<div id="html_4884b213e22bd8a0f984a2e67a0b50ac" style="width: 100.0%; height: 100.0%;">Cut Cut+ 韓式寫真館</div>`)[0];
+                popup_d8c098ede5313ec523a41eada301b6b4.setContent(html_4884b213e22bd8a0f984a2e67a0b50ac);
+            
+        
+
+        marker_a0e9b6b2c4e8f2380286684e76976cda.bindPopup(popup_d8c098ede5313ec523a41eada301b6b4)
+        ;
+
+        
+    
+    
+            var marker_e84e5e7212d15f99a20d1ad43f843642 = L.marker(
+                [25.0145, 121.463],
+                {}
+            ).addTo(map_a218cf335119ae97d9a6ef123d951656);
+        
+    
+            var icon_c6b65c037f6afbefd520f6c0ddb06fc6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e84e5e7212d15f99a20d1ad43f843642.setIcon(icon_c6b65c037f6afbefd520f6c0ddb06fc6);
+        
+    
+        var popup_1ba483427d13ebeb850ee9f64981f7f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d20f9bbcb0e5665fb0bb9bd423de4f0 = $(`<div id="html_9d20f9bbcb0e5665fb0bb9bd423de4f0" style="width: 100.0%; height: 100.0%;">板橋大遠百店</div>`)[0];
+                popup_1ba483427d13ebeb850ee9f64981f7f8.setContent(html_9d20f9bbcb0e5665fb0bb9bd423de4f0);
+            
+        
+
+        marker_e84e5e7212d15f99a20d1ad43f843642.bindPopup(popup_1ba483427d13ebeb850ee9f64981f7f8)
+        ;
+
+        
+    
+    
+            var marker_a362a081d1771c89b2cb478a0ccca472 = L.marker(
+                [25.034, 121.452],
+                {}
+            ).addTo(map_a218cf335119ae97d9a6ef123d951656);
+        
+    
+            var icon_3489a44add374c6dae499366ed424438 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a362a081d1771c89b2cb478a0ccca472.setIcon(icon_3489a44add374c6dae499366ed424438);
+        
+    
+        var popup_e963445b60abbe1273c9ba76b771affb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c29a61c6ba83876873a06966ff5a5215 = $(`<div id="html_c29a61c6ba83876873a06966ff5a5215" style="width: 100.0%; height: 100.0%;">新莊小胖不減肥概念店</div>`)[0];
+                popup_e963445b60abbe1273c9ba76b771affb.setContent(html_c29a61c6ba83876873a06966ff5a5215);
+            
+        
+
+        marker_a362a081d1771c89b2cb478a0ccca472.bindPopup(popup_e963445b60abbe1273c9ba76b771affb)
+        ;
+
+        
+    
+</script>
+</html>
